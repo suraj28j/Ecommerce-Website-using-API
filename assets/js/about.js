@@ -5,7 +5,7 @@ async function getProductsCategory() {
     const res = await getData.json();
     res.forEach((item, index) => {
         const col = document.createElement('div');
-        col.setAttribute('class', 'col-md');
+        col.setAttribute('class', 'col');
         col.innerHTML = `
         <div class = 'd-flex justify-content-center'>
             <img src = ${item.image} alt = ${item.id}>
