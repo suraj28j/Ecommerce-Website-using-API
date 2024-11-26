@@ -1,6 +1,6 @@
 // function for About Page
 const ourProducts = document.getElementById("ourProducts");
-async function fiveProducts() {
+async function getProductsCategory() {
     const getData = await fetch(`https://fakestoreapi.com/products?limit=5`);
     const res = await getData.json();
     res.forEach((item, index) => {
@@ -17,4 +17,4 @@ async function fiveProducts() {
         ourProducts.appendChild(col);
     })
 }
-fiveProducts();
+getProductsCategory();

@@ -1,0 +1,13 @@
+.col-md-4 img {
+    width: 15rem;
+    height: 15rem;
+}
+marquee{
+    justify-content: center;
+    background-color:rgb(237, 233, 228) ;
+    box-shadow: 2px 2px 3px rgb(237, 233, 228);
+}
+
+#offer{
+   margin-top: 0.5rem;
+}

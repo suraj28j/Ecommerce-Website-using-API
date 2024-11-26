@@ -46,7 +46,7 @@ function displayData(products) {
             </div>
         </div>
         `
-        productsContainer.appendChild(col);
+            productsContainer.appendChild(col);
         })
     } else {
         productsContainer.innerHTML = `<h3 id = 'errormsg'>Can't Fetch Data</h3>`
@@ -89,7 +89,7 @@ function setDeatils(id) {
     let product = allProducts.find((item) => {
         return item.id === id
     })
-    console.log(product);
+    // console.log(product);
     sessionStorage.setItem("product", JSON.stringify(product));
-    window.location.href = './singleProduct.html'
+    window.location.href = '../assets/html/singleProduct.html'
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Bootstarp link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -18,7 +18,7 @@
 <body>
     <header class="sticky-top">
         <!-- Navbar Start -->
-        <div class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="navbar navbar-expand-lg bg-body-tertiary  ">
             <div class="navbar-brand ms-4">
                 <h2>Ecommerce</h2>
             </div>
@@ -27,26 +27,28 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarcollapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="../../index.html" class="nav-link active">Home</a></li>
-                    <li class="nav-item"><a href="" class="nav-link active">Products</a></li>
-                    <li class="nav-item"><a href="../html/about.html" class="nav-link active">About</a></li>
-                    <li class="nav-item"><a href="../html/contact.html" class="nav-link active">Contact</a></li>
+                    <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="./products.html" class="nav-link active">Products</a></li>
+                    <li class="nav-item"><a href="./assets/html/about.html" class="nav-link active"
+                            onclick="fiveProducts()">About</a></li>
+                    <li class="nav-item"><a href="./assets/html/contact.html" class="nav-link active">Contact</a></li>
                 </ul>
                 <ul class="navbar-nav ms-auto me-4">
                     <li class="nav-item">
-                        <a href="./login.html" class="nav-link active">
+                        <a href="./assets/html/login.html" class="nav-link active">
                             <button class="btn btn-light border"><i class="bi bi-box-arrow-in-right"></i> Login</button>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./register.html" class="nav-link active">
+                        <a href="./assets/html/register.html" class="nav-link active">
                             <button class="btn btn-light border"><i class="bi bi-person-plus-fill"></i>
                                 Register</button>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./cart.html" class="nav-link active">
-                            <button class="btn btn-light border"><i class="bi bi-cart3"></i> Cart</button>
+                        <a href="./assets/html/cart.html" class="nav-link active">
+                            <button class="btn btn-light border" onclick="showCart()"><i class="bi bi-cart3"></i>
+                                Cart</button>
                         </a>
                     </li>
                 </ul>
@@ -102,7 +104,7 @@
         </div>
     </footer>
 
-    <script src="../js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
     <!-- Bootstrap JS link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
