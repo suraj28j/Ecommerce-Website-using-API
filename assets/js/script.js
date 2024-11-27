@@ -91,5 +91,5 @@ function setDeatils(id) {
     })
     // console.log(product);
     sessionStorage.setItem("product", JSON.stringify(product));
-    window.location.href = '../assets/html/singleProduct.html'
+    window.location.href = './assets/html/singleProduct.html'
 }
