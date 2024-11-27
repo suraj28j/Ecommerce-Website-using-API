@@ -5,12 +5,12 @@ function getSingleProduct() {
     console.log(product);
 
     const row = document.createElement('div');
-    row.setAttribute('class', 'row mt-4')
+    row.setAttribute('class', 'row mt-4 ')
     row.innerHTML = `
-    <div class = "col-md-4 ">
+    <div class = "col-md-4 productImg">
         <img src = "${product.image}" alt = "IMG">
     </div>
-    <div class = "col-md-8">
+    <div class = "col-md-8 prd">
         <h3>${product.title}</h3>
         <p>${product.description}</p>
         <h5>Price : $ ${product.price}</h5>

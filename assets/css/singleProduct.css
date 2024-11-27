@@ -1,6 +1,11 @@
-.col-md-4 img {
+.productImg {
+    display: flex;
+    justify-content: center;
+}
+.productImg img {
     width: 15rem;
     height: 15rem;
+    margin-bottom: 1.5rem;
 }
 marquee{
     justify-content: center;
