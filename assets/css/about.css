@@ -1,4 +1,9 @@
-#ourProducts img {
+/* #ourProducts img {
     width: 8rem;
     height: 8rem;
+} */
+
+img{
+    min-width: 100%;
+    height: 12rem;
 }

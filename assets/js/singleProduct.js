@@ -2,7 +2,7 @@ function getSingleProduct() {
     const showSingleProdct = document.getElementById("showSingleProdct");
     showSingleProdct.innerHTML = ``;
     let product = JSON.parse(sessionStorage.getItem("product"))
-    console.log(product);
+    // console.log(product);
 
     const row = document.createElement('div');
     row.setAttribute('class', 'row mt-4 ')
